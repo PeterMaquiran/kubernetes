@@ -4,7 +4,9 @@ Practice Kubernetes the way platform teams do in production: namespaced services
 
 **Repo:** `git@github.com:PeterMaquiran/kubernetes.git`
 
-**Full setup (clone + Killercoda + run labs):** [docs/KILLERCODA.md](docs/KILLERCODA.md)
+**New to Killercoda?** [docs/GETTING-STARTED-00.md](docs/GETTING-STARTED-00.md) — click-by-click for scenario **00**.  
+**Full setup (clone + Killercoda):** [docs/KILLERCODA.md](docs/KILLERCODA.md)  
+**Windows + limited disk (~20 GB):** [docs/WINDOWS-LOCAL.md](docs/WINDOWS-LOCAL.md)
 
 ## Quick start
 
