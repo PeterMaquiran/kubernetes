@@ -1,0 +1,13 @@
+{
+  "title": "01 — Cluster ops & labels",
+  "description": "Namespaces, labels, selectors — day-one platform hygiene.",
+  "details": {
+    "intro": {"text": "intro.md"},
+    "steps": [
+      {"title": "Label namespaces & list workloads", "text": "step1/text.md", "verify": "step1/verify.sh"},
+      {"title": "Run a compliance-tagged pod", "text": "step2/text.md", "verify": "step2/verify.sh"}
+    ],
+    "finish": {"text": "finish.md"}
+  },
+  "backend": {"imageid": "kubernetes-kubeadm-1node"}
+}

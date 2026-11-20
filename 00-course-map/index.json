@@ -1,0 +1,12 @@
+{
+  "title": "00 — Course map & kubectl cheat sheet",
+  "description": "How to use this playground and what to practice at each level.",
+  "details": {
+    "intro": {"text": "intro.md"},
+    "steps": [
+      {"title": "Verify cluster access", "text": "step1/text.md", "verify": "step1/verify.sh"}
+    ],
+    "finish": {"text": "finish.md"}
+  },
+  "backend": {"imageid": "kubernetes-kubeadm-1node"}
+}

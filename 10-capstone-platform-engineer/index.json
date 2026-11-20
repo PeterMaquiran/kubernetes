@@ -1,0 +1,18 @@
+{
+  "title": "10 — Capstone: ship ACME vertical slice",
+  "description": "Deploy platform namespace, RBAC, apps, and smoke test like a release.",
+  "assets": {
+    "host01": [
+      {"file": "assets/**/*", "target": "~/assets/10/", "chmod": "+r"}
+    ]
+  },
+  "details": {
+    "intro": {"text": "intro.md"},
+    "steps": [
+      {"title": "Apply platform bundle", "text": "step1/text.md", "verify": "step1/verify.sh"},
+      {"title": "Release verification", "text": "step2/text.md", "verify": "step2/verify.sh"}
+    ],
+    "finish": {"text": "finish.md"}
+  },
+  "backend": {"imageid": "kubernetes-kubeadm-1node"}
+}

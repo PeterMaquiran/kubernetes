@@ -1,0 +1,18 @@
+{
+  "title": "05 — RBAC & least privilege",
+  "description": "Namespace-scoped Role for CI deployer — enterprise access pattern.",
+  "assets": {
+    "host01": [
+      {"file": "assets/**/*", "target": "~/assets/05/", "chmod": "+r"}
+    ]
+  },
+  "details": {
+    "intro": {"text": "intro.md"},
+    "steps": [
+      {"title": "Create CI deployer RBAC", "text": "step1/text.md", "verify": "step1/verify.sh"},
+      {"title": "Impersonate and test", "text": "step2/text.md", "verify": "step2/verify.sh"}
+    ],
+    "finish": {"text": "finish.md"}
+  },
+  "backend": {"imageid": "kubernetes-kubeadm-1node"}
+}

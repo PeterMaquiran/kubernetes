@@ -1,0 +1,18 @@
+{
+  "title": "03 — Services & discovery",
+  "description": "ClusterIP, headless, endpoints — internal east-west traffic.",
+  "assets": {
+    "host01": [
+      {"file": "assets/**/*", "target": "~/assets/03/", "chmod": "+r"}
+    ]
+  },
+  "details": {
+    "intro": {"text": "intro.md"},
+    "steps": [
+      {"title": "Expose payment-api", "text": "step1/text.md", "verify": "step1/verify.sh"},
+      {"title": "Validate connectivity", "text": "step2/text.md", "verify": "step2/verify.sh"}
+    ],
+    "finish": {"text": "finish.md"}
+  },
+  "backend": {"imageid": "kubernetes-kubeadm-1node"}
+}

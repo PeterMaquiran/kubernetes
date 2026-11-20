@@ -1,0 +1,17 @@
+{
+  "title": "ACME Corp — Kubernetes: Foundations → Pro",
+  "description": "Enterprise-style Killercoda course. Practice like a platform engineer.",
+  "items": [
+    {"path": "00-course-map", "title": "00 — Course map", "description": "Start here"},
+    {"path": "01-foundations-cluster-ops", "title": "01 — Cluster ops & labels", "description": "Track: Foundations"},
+    {"path": "02-workloads-deployments", "title": "02 — Deployments & rollouts", "description": "Track: Foundations"},
+    {"path": "03-networking-services", "title": "03 — Services & discovery", "description": "Track: Platform"},
+    {"path": "04-config-secrets", "title": "04 — ConfigMaps & Secrets", "description": "Track: Platform"},
+    {"path": "05-rbac-security", "title": "05 — RBAC & least privilege", "description": "Track: Enterprise"},
+    {"path": "06-troubleshooting-oncall", "title": "06 — On-call troubleshooting", "description": "Track: Enterprise"},
+    {"path": "07-production-guardrails", "title": "07 — Production guardrails", "description": "Track: Enterprise"},
+    {"path": "08-multi-node-scheduling", "title": "08 — Multi-node scheduling", "description": "Track: Pro (2-node cluster)"},
+    {"path": "09-incident-response", "title": "09 — Incident response SEV-2", "description": "Track: Pro"},
+    {"path": "10-capstone-platform-engineer", "title": "10 — Capstone release", "description": "Track: Pro"}
+  ]
+}

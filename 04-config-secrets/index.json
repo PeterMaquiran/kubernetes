@@ -1,0 +1,17 @@
+{
+  "title": "04 — ConfigMaps & Secrets",
+  "description": "Externalize config and mount secrets like production.",
+  "assets": {
+    "host01": [
+      {"file": "assets/**/*", "target": "~/assets/04/", "chmod": "+r"}
+    ]
+  },
+  "details": {
+    "intro": {"text": "intro.md"},
+    "steps": [
+      {"title": "Wire config into order-service", "text": "step1/text.md", "verify": "step1/verify.sh"}
+    ],
+    "finish": {"text": "finish.md"}
+  },
+  "backend": {"imageid": "kubernetes-kubeadm-1node"}
+}

@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: acme-platform-quota
+  namespace: acme-platform
+spec:
+  hard:
+    requests.cpu: "2"
+    requests.memory: 2Gi
+    pods: "20"

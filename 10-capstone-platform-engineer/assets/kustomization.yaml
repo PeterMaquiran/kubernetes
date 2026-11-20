@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: acme-production
+resources:
+- namespace.yaml
+- rbac.yaml
+- payment-api.yaml
+- order-service.yaml
+commonLabels:
+  cost-center: platform-eng
+  environment: production-sim

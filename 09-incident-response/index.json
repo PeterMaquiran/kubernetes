@@ -1,0 +1,18 @@
+{
+  "title": "09 — Incident response (SEV-2)",
+  "description": "Payment path down: fix Service selector mismatch under pressure.",
+  "assets": {
+    "host01": [
+      {"file": "assets/**/*", "target": "~/assets/09/", "chmod": "+r"}
+    ]
+  },
+  "details": {
+    "intro": {"text": "intro.md"},
+    "steps": [
+      {"title": "Confirm customer impact", "text": "step1/text.md", "verify": "step1/verify.sh"},
+      {"title": "Restore traffic", "text": "step2/text.md", "verify": "step2/verify.sh"}
+    ],
+    "finish": {"text": "finish.md"}
+  },
+  "backend": {"imageid": "kubernetes-kubeadm-1node"}
+}

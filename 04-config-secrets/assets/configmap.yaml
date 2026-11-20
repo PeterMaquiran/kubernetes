@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: order-service-config
+  namespace: acme-platform
+data:
+  LOG_LEVEL: "info"
+  FEATURE_TOGGLES: "batch-settlements=true"
+  application.properties: |
+    settlement.window=15m
+    region=eu-west-1

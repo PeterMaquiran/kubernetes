@@ -1,0 +1,18 @@
+{
+  "title": "02 — Deployments & rollouts",
+  "description": "Scale payment-api, perform a rolling update, rollback.",
+  "assets": {
+    "host01": [
+      {"file": "assets/**/*", "target": "~/assets/02/", "chmod": "+r"}
+    ]
+  },
+  "details": {
+    "intro": {"text": "intro.md"},
+    "steps": [
+      {"title": "Deploy payment-api v1", "text": "step1/text.md", "verify": "step1/verify.sh"},
+      {"title": "Roll forward & rollback", "text": "step2/text.md", "verify": "step2/verify.sh"}
+    ],
+    "finish": {"text": "finish.md"}
+  },
+  "backend": {"imageid": "kubernetes-kubeadm-1node"}
+}

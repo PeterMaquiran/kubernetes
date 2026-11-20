@@ -1,0 +1,18 @@
+{
+  "title": "08 — Multi-node scheduling",
+  "description": "Spread workloads with podAntiAffinity on controlplane + node01.",
+  "assets": {
+    "host01": [
+      {"file": "assets/**/*", "target": "~/assets/08/", "chmod": "+r"}
+    ]
+  },
+  "details": {
+    "intro": {"text": "intro.md"},
+    "steps": [
+      {"title": "Inspect topology", "text": "step1/text.md", "verify": "step1/verify.sh"},
+      {"title": "Deploy HA cache layer", "text": "step2/text.md", "verify": "step2/verify.sh"}
+    ],
+    "finish": {"text": "finish.md"}
+  },
+  "backend": {"imageid": "kubernetes-kubeadm-2nodes"}
+}

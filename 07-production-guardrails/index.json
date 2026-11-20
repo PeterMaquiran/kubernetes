@@ -1,0 +1,18 @@
+{
+  "title": "07 — Production guardrails",
+  "description": "ResourceQuota, LimitRange, PodDisruptionBudget.",
+  "assets": {
+    "host01": [
+      {"file": "assets/**/*", "target": "~/assets/07/", "chmod": "+r"}
+    ]
+  },
+  "details": {
+    "intro": {"text": "intro.md"},
+    "steps": [
+      {"title": "Apply platform policies", "text": "step1/text.md", "verify": "step1/verify.sh"},
+      {"title": "Deploy within quota", "text": "step2/text.md", "verify": "step2/verify.sh"}
+    ],
+    "finish": {"text": "finish.md"}
+  },
+  "backend": {"imageid": "kubernetes-kubeadm-1node"}
+}
