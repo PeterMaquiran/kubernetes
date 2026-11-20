@@ -1,12 +1,16 @@
 # Enterprise Kubernetes Playground (Killercoda)
 
-Practice Kubernetes the way platform teams do in production: namespaced services, RBAC, rollouts, incidents, and multi-node scheduling. Built for [Killercoda](https://killercoda.com/creators) — sync this repo to your creator account and run scenarios in the browser.
+Practice Kubernetes the way platform teams do in production: namespaced services, RBAC, rollouts, incidents, and multi-node scheduling. Built for [Killercoda](https://killercoda.com/creators).
+
+**Repo:** `git@github.com:PeterMaquiran/kubernetes.git`
+
+**Full setup (clone + Killercoda + run labs):** [docs/KILLERCODA.md](docs/KILLERCODA.md)
 
 ## Quick start
 
-1. Push this repository to GitHub (or GitLab).
-2. In Killercoda: **Profile → Creator → Connect repository**.
-3. Open your profile URL, e.g. `https://killercoda.com/<your-handle>/`.
+1. Clone: `git clone git@github.com:PeterMaquiran/kubernetes.git`
+2. In Killercoda: connect **`PeterMaquiran/kubernetes`** under Creator / GitHub settings.
+3. Open `https://killercoda.com/petermaquiran/` (adjust if your handle differs).
 4. Start with **00 — Course map**, then follow tracks **Foundations → Platform → Enterprise → Pro**.
 
 ## Learning path
@@ -34,7 +38,7 @@ Practice Kubernetes the way platform teams do in production: namespaced services
 Manifests under each scenario’s `assets/` folder can be applied on any cluster:
 
 ```bash
-kubectl apply -f enterprise-kubernetes-playground/09-incident-response/assets/
+kubectl apply -f 09-incident-response/assets/
 ```
 
 ## Company fiction
