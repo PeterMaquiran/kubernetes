@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: session-cache
-  namespace: acme-platform
+  namespace: pratice-platform
 spec:
   replicas: 2
   selector:

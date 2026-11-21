@@ -1,5 +1,5 @@
 #!/bin/bash
 set -euo pipefail
 kubectl get nodes | grep -q Ready
-kubectl get namespace acme-platform >/dev/null 2>&1
-echo "acme-platform namespace ready"
+kubectl get namespace pratice-platform >/dev/null 2>&1
+echo "pratice-platform namespace ready"

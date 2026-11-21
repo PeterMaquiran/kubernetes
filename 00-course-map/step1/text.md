@@ -6,8 +6,8 @@ Confirm you can reach the API server and see the control plane node.
 
 Create the practice namespace used across the course:
 
-`kubectl create namespace acme-platform`{{exec}}
+`kubectl create namespace pratice-platform`{{exec}}
 
-`kubectl get ns acme-platform`{{exec}}
+`kubectl get ns pratice-platform`{{exec}}
 
 When **Check** passes, continue to scenario **01 — Cluster & namespaces**.

@@ -123,7 +123,7 @@ cd ~
 git clone https://github.com/PeterMaquiran/kubernetes.git
 cd kubernetes
 
-kubectl create namespace acme-platform
+kubectl create namespace pratice-platform
 bash 00-course-map/step1/verify.sh
 ```
 
@@ -198,7 +198,7 @@ kubectl get ns
 # reset cluster
 k3d cluster delete acme
 k3d cluster create acme --agents 0
-kubectl create namespace acme-platform
+kubectl create namespace pratice-platform
 ```
 
 ---

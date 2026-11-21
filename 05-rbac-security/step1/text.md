@@ -4,4 +4,4 @@
 
 `kubectl apply -f ~/assets/05/rolebinding.yaml`{{exec}}
 
-`kubectl get sa,role,rolebinding -n acme-platform | grep ci-deployer`{{exec}}
+`kubectl get sa,role,rolebinding -n pratice-platform | grep ci-deployer`{{exec}}

@@ -128,7 +128,7 @@ git push
 | --- | --- |
 | Scenarios not listed | Ensure `structure.json` exists at repo root; each scenario path matches a folder name. |
 | **Check** always fails | Run the step commands manually in the terminal; read `stepN/verify.sh` for expected state. |
-| Namespace missing | Scenario `00` creates `acme-platform`; run `00` first or `kubectl create namespace acme-platform`. |
+| Namespace missing | Scenario `00` creates `pratice-platform`; run `00` first or `kubectl create namespace pratice-platform`. |
 | Scenario `08` pods pending | Use the 2-node image only for `08`; confirm `kubectl get nodes` shows 2 Ready nodes. |
 | Assets not found | Paths are `~/assets/02/`, etc., after the environment starts — not on your laptop. |
 | Sync delay | Push to GitHub, then hard-refresh the Killercoda scenario URL. |
@@ -138,7 +138,7 @@ git push
 ```bash
 kubectl get nodes
 kubectl get ns
-kubectl get all -n acme-platform
+kubectl get all -n pratice-platform
 kubectl describe pod -n <namespace> <pod-name>
 ```
 

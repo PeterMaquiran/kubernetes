@@ -2,4 +2,4 @@
 
 `kubectl apply -f ~/assets/03/service.yaml`{{exec}}
 
-`kubectl get svc,endpoints -n acme-platform payment-api`{{exec}}
+`kubectl get svc,endpoints -n pratice-platform payment-api`{{exec}}

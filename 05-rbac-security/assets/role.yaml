@@ -2,7 +2,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
   name: ci-deployer
-  namespace: acme-platform
+  namespace: pratice-platform
 rules:
 - apiGroups: ["apps"]
   resources: ["deployments"]

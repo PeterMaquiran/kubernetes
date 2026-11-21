@@ -5,4 +5,4 @@
 
 ACME requires every non-system namespace to carry `cost-center` and `environment` labels for chargeback reporting.
 
-Your task: label `acme-platform` and deploy a pod that matches the corporate label policy.
+Your task: label `pratice-platform` and deploy a pod that matches the corporate label policy.

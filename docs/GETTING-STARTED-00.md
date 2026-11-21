@@ -62,16 +62,16 @@ kubectl get nodes -o wide
 You should see one node named **controlplane** with **STATUS = Ready**.
 
 ```bash
-kubectl create namespace acme-platform
+kubectl create namespace pratice-platform
 ```
 
 Creates the namespace used in later labs.
 
 ```bash
-kubectl get ns acme-platform
+kubectl get ns pratice-platform
 ```
 
-You should see **acme-platform** in the list.
+You should see **pratice-platform** in the list.
 
 ### Step 2 — Pass the step
 
@@ -81,8 +81,8 @@ You should see **acme-platform** in the list.
 
 If **Check** fails:
 
-- Run `kubectl create namespace acme-platform` again (safe if it already exists: use  
-  `kubectl create namespace acme-platform --dry-run=client -o yaml | kubectl apply -f -`).
+- Run `kubectl create namespace pratice-platform` again (safe if it already exists: use  
+  `kubectl create namespace pratice-platform --dry-run=client -o yaml | kubectl apply -f -`).
 - Make sure the node is **Ready**: `kubectl get nodes`.
 
 ---
@@ -102,8 +102,8 @@ If **Check** fails:
 ```bash
 kubectl cluster-info
 kubectl get nodes -o wide
-kubectl create namespace acme-platform
-kubectl get ns acme-platform
+kubectl create namespace pratice-platform
+kubectl get ns pratice-platform
 ```
 
 Then click **Check**.

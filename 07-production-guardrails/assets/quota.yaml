@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: ResourceQuota
 metadata:
-  name: acme-platform-quota
-  namespace: acme-platform
+  name: pratice-platform-quota
+  namespace: pratice-platform
 spec:
   hard:
     requests.cpu: "2"
